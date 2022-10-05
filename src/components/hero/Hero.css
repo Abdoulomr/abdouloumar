@@ -21,7 +21,7 @@
 
 .me {
     margin-top: 0;
-    font-family: consolas;
+    font-family: 'Source sans Pro';
     color: var(--primary-color);
     font-weight: 900;
     font-size: clamp(2.5rem, 3.5vw, 6rem);
