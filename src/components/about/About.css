@@ -1,0 +1,124 @@
+.about {
+    height: calc(100vh - 90px);
+    text-align: center;
+    margin: 0 clamp(.3rem, 2vw, 2rem);
+}
+
+.section-title {
+    padding-top: 1rem;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+    font-family: source sans pro;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 40px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-subtitle {
+    margin-top: 4rem;
+    font-size: clamp(.8rem, 2vw, 1rem);
+
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: clamp(1rem, 10vw, 4rem);
+    gap: clamp(1rem, 10vw, 6rem);
+    text-align: left;
+}
+
+
+
+.about-me-title {
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+.about-me-text {
+    text-align: left;
+    max-width: 600px;
+    font-size: clamp(.8rem, 2vw, 1rem);
+}
+
+.my-skills {
+    display: flex;
+    max-width: 570px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: clamp(.8rem, 1.5vw, 1.5rem);
+}
+
+.skill {
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: fit-content;
+    font-size: .8rem;
+    height: fit-content;
+    padding: .5rem 1rem;
+    padding: clamp(.3rem, 4vw, .8) clamp(.5rem, 4vw, 1.5rem);
+    border-radius: .2rem;
+    animation: pulse 2s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.06);
+    }
+}
+
+.contact-btn {
+    display: block;
+    background-color: var(--primary-color);
+    color: #fff;
+    max-width: 200px;
+    border: none;
+    font-size: clamp(.9rem, 1.2vw, 1.1rem);
+    padding: 1rem .1rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 3.4rem auto 0;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    text-align: center;
+
+}
+
+.resume-btn {
+    display: block;
+    background-color: var(--primary-color);
+    color: #fff;
+    max-width: 200px;
+    border: none;
+    font-size: clamp(.9rem, 1.2vw, 1.1rem);
+    padding: 1rem .1rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5rem auto 0;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    text-align: center;
+
+}
+
+.contact-btn:hover,
+.resume-btn:hover {
+    opacity: .9;
+}
