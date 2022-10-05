@@ -71,10 +71,10 @@
     padding: .5rem 1rem;
     padding: clamp(.3rem, 4vw, .8) clamp(.5rem, 4vw, 1.5rem);
     border-radius: .2rem;
-    animation: pulse 2s infinite ease-in-out alternate;
+    /* animation: pulse 2s infinite ease-in-out alternate; */
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
     from {
         transform: scale(1);
     }
@@ -82,7 +82,7 @@
     to {
         transform: scale(1.06);
     }
-}
+} */
 
 .contact-btn {
     display: block;
