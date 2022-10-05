@@ -69,7 +69,7 @@
     font-size: .8rem;
     height: fit-content;
     padding: .5rem 1rem;
-    padding: clamp(.3rem, 4vw, .8) clamp(.5rem, 4vw, 1.5rem);
+    padding: .5rem 1rem;
     border-radius: .2rem;
     /* animation: pulse 2s infinite ease-in-out alternate; */
 }
