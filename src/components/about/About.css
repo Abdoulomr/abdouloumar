@@ -16,7 +16,7 @@
 .section-title {
     letter-spacing: 5px;
     word-spacing: 10px;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1.1rem, 2vw, 2rem);
     font-family: source sans pro;
     text-transform: uppercase;
     position: relative;
@@ -54,7 +54,10 @@
 .about-me-title {
     letter-spacing: 3px;
     word-spacing: 4px;
+    text-transform: uppercase;
     text-align: center;
+    font-size: clamp(.8rem, 2vw, 1.5rem);
+
 }
 
 .about-me-text {
@@ -142,7 +145,7 @@
     }
 
     .about-me-title {
-        margin-top: 0;
+        margin: 0 0 1.2rem;
     }
 
     .btn {
