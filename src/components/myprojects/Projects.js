@@ -16,9 +16,9 @@ const Projects = () => {
             <h1 className='section-title'>Projects & Expriences</h1>
 
             <div className="projects-wrapper">
-                {myProjects.map(project => {
+                {myProjects.map((project, index) => {
                     return(
-                        <div className='project'>
+                        <div className='project' key={index}>
                             <img className='project-img' src={project.projectIMG} alt={project.projectName} />
                             <h3>{project.projectName}</h3>
                             <p>{project.projectDescription}</p>

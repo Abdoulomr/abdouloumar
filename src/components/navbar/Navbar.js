@@ -19,7 +19,10 @@ const Navbar = () => {
 
     return (
       <nav>
-        <div className="logo">{`<Abdoul />`} </div>
+        <div className="logo">
+          <img src="abdoul.png" alt="" className="my-photo" />
+          {`<Abdoul />`} 
+        </div>
 
           <ul className={`nav-list ${toggle && 'nav-active'}`}>
             {navLinks.map((navLink, index) => {

@@ -21,13 +21,16 @@ nav {
     font-size: clamp(1rem, 2.5vw, 1.2rem);
     font-weight: 600;
     display: flex;
+    gap: 10px;
     align-items: center;
-    transition: .2s;
 }
 
 .logo:hover {
-    color: var(--primary-color);
-    scale: 1.02;
+    color: var(--secondary-color);
+}
+
+.my-photo {
+    max-width: 30px;
 }
 
 .nav-list {
