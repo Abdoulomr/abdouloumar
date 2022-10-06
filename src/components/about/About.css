@@ -4,13 +4,12 @@
     min-height: 1000px;
     max-height: 1500px;
     text-align: center;
-    margin: auto;
 }
 
 .about-wrapper {
     height: fit-content;
     width: fit-content;
-    margin: 0;
+    margin: auto;
 }
 
 .section-title {
@@ -150,7 +149,5 @@
         margin-top: 2rem;
     }
 
-    .about-me-title {
-        margin-top: 0;
-    }
+
 }
