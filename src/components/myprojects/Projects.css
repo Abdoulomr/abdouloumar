@@ -8,3 +8,33 @@
 .projects h1 {
     margin: auto;
 }
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    gap: rem;
+    margin: 4rem auto 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    max-width: 800px;
+}
+
+.project {
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+.project-img {
+    max-width: 800px;
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 16 / 9;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5); */
+
+}

@@ -26,7 +26,7 @@ const About = () => {
                     </div>
 
                     <div className="skills">
-                        <h2 className='about-me-title'>My tech stack</h2>
+                        <h2 className='about-me-title'>Tech stack & skills</h2>
 
                         <div className="my-skills">
                             <span className="skill">HTML</span>
