@@ -55,11 +55,12 @@
     border-radius: 10px;
     transition: .3s ease-in-out;
     text-align: center;
+    opacity: .8;
 
 }
 
 .btn:hover {
-    opacity: .8;
+    opacity: 1;
 }
 
 .socials {
