@@ -141,8 +141,12 @@
         gap: 4rem;
     }
 
+    .about-me-title {
+        margin-top: 0;
+    }
+
     .btn {
-        margin-top: 2rem;
+        margin-top: 1.8rem;
     }
 
 
