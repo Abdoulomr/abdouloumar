@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
       <nav>
-        <div className="logo">{`<Abdoul Oumar />`} </div>
+        <div className="logo">{`<Abdoul />`} </div>
 
           <ul className={`nav-list ${toggle && 'nav-active'}`}>
             {navLinks.map((navLink, index) => {
