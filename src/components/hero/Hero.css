@@ -45,9 +45,9 @@
     display: block;
     background-color: var(--primary-color);
     color: #fff;
-    max-width: 200px;
+    max-width: 180px;
     border: none;
-    font-size: clamp(.8rem, 1.2vw, 1.1rem);
+    font-size: clamp(.8rem, 1.1vw, 1rem);
     padding: 1rem .1rem;
     text-decoration: none;
     cursor: pointer;

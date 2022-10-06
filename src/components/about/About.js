@@ -16,7 +16,7 @@ const About = () => {
                             I'm a Frontend Web Developer building the Front-end
                             of Websites and Web Applications that leads to the success
                             of the overall product. Check out some of my work in the
-                            Projects section. <br /> <br />
+                            Projects section. <br />
                             I'm open to Job opportunities where I can contribute, learn
                             and grow. If you have a good opportunity that matches my 
                             skills and experience then don't hesitate to contact me.
@@ -37,7 +37,7 @@ const About = () => {
                             <span className="skill">BOOTSTRAP</span>
                             <span className="skill">TALWIND</span>
                             <span className="skill">FIGMA</span>
-                            <span className="skill">Slack</span>
+                            <span className="skill">SLACK</span>
                             <span className="skill">GIT</span>
                             <span className="skill">GITHUB</span>
                             <span className="skill">NPM</span>
