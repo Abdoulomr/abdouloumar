@@ -54,12 +54,13 @@
 .about-me-title {
     letter-spacing: 3px;
     word-spacing: 4px;
+    text-align: center;
 }
 
 .about-me-text {
     text-align: left;
     max-width: 400px;
-    font-size: clamp(.5rem, 2vw, .9rem);
+    font-size: clamp(.8rem, 2vw, .9rem);
 }
 
 .my-skills {
