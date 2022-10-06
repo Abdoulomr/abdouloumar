@@ -1,11 +1,19 @@
 .about {
-    height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    min-height: 1000px;
+    max-height: 1500px;
     text-align: center;
-    margin: 0 clamp(.3rem, 2vw, 2rem);
+    margin: auto;
+}
+
+.about-wrapper {
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
 }
 
 .section-title {
-    padding-top: 1rem;
     letter-spacing: 5px;
     word-spacing: 10px;
     font-size: clamp(1.3rem, 2vw, 2rem);
@@ -121,4 +129,26 @@
 .contact-btn:hover,
 .resume-btn:hover {
     opacity: .9;
+}
+
+@media screen and (max-width: 745px) {
+    .about {
+        padding: 0 40px;
+    }
+
+    .about-content {
+        gap: 1rem;
+    }
+
+    .btn {
+        margin-top: 2rem;
+    }
+
+    .section-subtitle {
+        margin-top: 2rem;
+    }
+
+    .about-me-title {
+        margin-top: 0;
+    }
 }

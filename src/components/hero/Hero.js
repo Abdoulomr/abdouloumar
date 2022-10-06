@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './Hero.css';
 import { FaGithub, FaLinkedinIn, FaTwitter, } from 'react-icons/fa';
 import Navbar from '../navbar/Navbar';
@@ -8,7 +8,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
     return (
-        <Fragment>
+        <section>
             <Navbar />
 
             <div className='hero' id='hero'>
@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        </Fragment>
+        </section>
         
     );
 };

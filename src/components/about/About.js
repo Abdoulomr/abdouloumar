@@ -4,7 +4,8 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const About = () => {
     return (
-            <div className='about' id='about'>
+            <section className='about' id='about'>
+                <div className="about-wrapper">
                 <h1 className='section-title'>About me</h1>
                 <p className='section-subtitle'>Here you will find more information about me, what I do, and my current skills</p>
 
@@ -20,7 +21,7 @@ const About = () => {
                             and grow. If you have a good opportunity that matches my 
                             skills and experience then don't hesitate to contact me.
                         </p>
-                        <AnchorLink href='#contact' className='contact-btn'>Contact</AnchorLink>
+                        <AnchorLink href='#contact' className='btn contact-btn'>Contact</AnchorLink>
 
                     </div>
 
@@ -46,12 +47,13 @@ const About = () => {
                             
                         </div>
 
-                        <AnchorLink className='resume-btn'>Get my reusme</AnchorLink>
+                        <AnchorLink className='btn resume-btn'>Get my reusme</AnchorLink>
                         
 
                     </div>
                 </div>
-            </div>
+                </div>
+            </section>
     );
 };
 
