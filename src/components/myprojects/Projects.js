@@ -20,9 +20,9 @@ const Projects = () => {
                     return(
                         <div className='project' key={index}>
                             <img className='project-img' src={project.projectIMG} alt={project.projectName} />
-                            <h3>{project.projectName}</h3>
-                            <p>{project.projectDescription}</p>
-                            <a href={project.projectLink}>View</a>
+                            <h3 className='project-title'>{project.projectName}</h3>
+                            <p className='project-description'>{project.projectDescription}</p>
+                            <a className='project-link' href={project.projectLink}>View</a>
                         </div>
                     )
                 })}
