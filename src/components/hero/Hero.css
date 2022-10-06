@@ -81,8 +81,8 @@
     color: var(--primary-color);
 }
 
-/* @media screen and (max-width: 745px) {
-    .content {
-        width: 85vw;
+@media screen and (max-width: 745px) {
+    .hero {
+        max-height: 900px;
     }
-} */
+}

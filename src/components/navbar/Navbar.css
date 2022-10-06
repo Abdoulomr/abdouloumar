@@ -70,6 +70,7 @@ nav {
 }
 
 .menu-icon {
+    scale: 1.2;
     display: none;
 }
 
