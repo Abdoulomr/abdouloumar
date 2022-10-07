@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Projects from './components/myprojects/Projects';
+import Footer from './components/footer/Footer';
 
 function App() {
   document.title = 'Abdoul Oumar SY';
@@ -9,8 +10,9 @@ function App() {
   return (
       <div className="App">
         <Hero />
-        <About /> <br />
+        <About />
         <Projects />
+        <Footer />
       </div>
   );
 }
