@@ -30,7 +30,7 @@ textarea {
     padding: 1rem 2rem;
     resize: none;
     color: #0f0f0f;
-    font: clamp(.8rem, 2vw, 1rem) 'poppins' !important;
+    font-size: clamp(.8rem, 2vw, 1rem) !important;
 
 }
 
