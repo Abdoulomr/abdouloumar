@@ -1,0 +1,66 @@
+.contact {
+    height: 100vh;
+    padding-top: 100px;
+    min-height: 800px;
+    text-align: center;
+    margin: 0 clamp(.3rem, 2vw, 2rem);
+    background-color: #fafafa;
+    color: var(--text-color);
+}
+
+/* .contact-wrapper {
+    margin: auto;
+} */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    gap: 1rem;
+    max-width: 600px;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.form input,
+textarea {
+    border: none;
+    padding: 1rem 2rem;
+    resize: none;
+    color: #0f0f0f;
+    font: clamp(.8rem, 2vw, 1rem) 'poppins';
+
+}
+
+.form input::placeholder,
+textarea::placeholder {
+    color: var(--text-color);
+    font: clamp(.8rem, 2vw, 1rem) 'poppins';
+}
+
+.form input:focus,
+textarea:focus {
+    outline: none;
+    /* box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2); */
+
+}
+
+.form textarea {
+    min-height: 150px;
+}
+
+.form-submit-btn {
+    background-color: var(--primary-color);
+    color: #fafafa !important;
+    max-width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.form-submit-btn:hover {
+    background-color: var(--secondary-color);
+
+}

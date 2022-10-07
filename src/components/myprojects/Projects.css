@@ -4,10 +4,8 @@
     min-height: 800px;
     text-align: center;
     margin: 0 clamp(.3rem, 2vw, 2rem);
-    background-color: #f4f4f4;
+    background-color: #fafafa;
     color: var(--text-color);
-
-
 }
 
 .projects h1 {
@@ -60,7 +58,7 @@
     margin-bottom: -1rem;
     color: #fafafa;
     padding: .2rem 1rem;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     background-color: var(--primary-color);
     opacity: .8;
 }
