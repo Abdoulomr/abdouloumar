@@ -24,9 +24,9 @@ const Contact = () => {
                 <h4 className='contact-header'>Leave me a message</h4>
 
                 <form className='form' ref={form} onSubmit={sendEmail} >
-                    <input type="text" name="user_name" placeholder='Full Name'/>
-                    <input type="email" name="user_email" placeholder='Your Email Adress'/>
-                    <textarea name="message" placeholder='Leave me a message'/>
+                    <input className='input' type="text" name="user_name" placeholder='Full Name'/>
+                    <input className='input' type="email" name="user_email" placeholder='Your Email Adress'/>
+                    <textarea name="message" placeholder='Message'/>
                     <input className='form-submit-btn' type="submit" value="Send" />
                 </form>
             </div>
