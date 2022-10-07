@@ -19,10 +19,10 @@ const Footer = () => {
                 <div className="footer-social">
                     <h2>Social</h2>
                     <div className="footer-socials">
-                    <a className='social' href="https://www.linkedin.com/in/abdoul-oumar-sy-b34443169/"><FaLinkedinIn /></a>
-                    <a className='social' href="https://github.com/Abdoulomr"><FaGithub /></a>
-                    <a className='social' href="https://twitter.com/abdoulomr"><FaTwitter /></a>
-                    <a className='social' href="https://www.instagram.com/abdoulsee/"><FaInstagram /></a>
+                    <a className='social' target="_blank" href="https://www.linkedin.com/in/abdoul-oumar-sy-b34443169/"><FaLinkedinIn /></a>
+                    <a className='social' target="_blank" href="https://github.com/Abdoulomr"><FaGithub /></a>
+                    <a className='social' target="_blank" href="https://twitter.com/abdoulomr"><FaTwitter /></a>
+                    <a className='social' target="_blank" href="https://www.instagram.com/abdoulsee/"><FaInstagram /></a>
                     </div>
                 </div>
             </div>
