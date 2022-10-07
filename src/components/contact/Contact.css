@@ -18,6 +18,7 @@
     box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.3);
     max-width: 800px;
     min-width: 350px;
+    height: fit-content;
     margin: auto;
     margin-top: 3rem;
     padding: 2.5rem 3rem;
@@ -25,6 +26,7 @@
 
 .contact-header {
     margin: 0 0 3rem 0;
+    color: var(--primary-color);
 }
 
 .form {
@@ -40,12 +42,14 @@
 .form .input,
 textarea {
     border: none;
-    padding: 1rem 1.2rem;
+    padding: .3rem 1.5rem;
     min-width: 250px;
+    width: 90%;
+    min-height: 50px;
     resize: none;
-    background-color: #fafafa;
+    background-color: #eeeaf3;
     color: #0f0f0f;
-    font-size: clamp(.8rem, 2vw, 1rem) !important;
+    font: clamp(.8rem, 2vw, 1rem);
 
 }
 
@@ -58,11 +62,12 @@ textarea::placeholder {
 .input:focus,
 textarea:focus {
     outline: none;
-    font-family: 'poppins';
+    font: clamp(.8rem, 2vw, 1rem) 'poppins';
 }
 
 .form textarea {
     min-height: 150px;
+    padding: 1.2rem 1.5rem;
 }
 
 .form-submit-btn {
