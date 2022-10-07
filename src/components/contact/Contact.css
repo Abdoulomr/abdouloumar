@@ -55,6 +55,7 @@ textarea:focus {
     background-color: var(--primary-color);
     color: #fafafa !important;
     max-width: 150px;
+    min-height: 40px;
     border-radius: 5px;
     cursor: pointer;
     transition: .2s;
