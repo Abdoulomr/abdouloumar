@@ -88,3 +88,24 @@ textarea:focus {
     background-color: var(--secondary-color);
 
 }
+
+
+
+/* Sweet alert styling */
+
+.swal-modal {
+    max-width: 300px;
+}
+
+.swal-icon {
+    scale: .7;
+}
+
+.swal-text,
+.swal-title {
+    color: var(--text-color);
+}
+
+.swal-button {
+    background-color: var(--primary-color);
+}

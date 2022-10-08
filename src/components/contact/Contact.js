@@ -1,19 +1,22 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
+import swal from 'sweetalert';
 
 const Contact = () => {
 
     const form = useRef();
 
+    
+
+
+
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_mmsa0ua', 'template_9m3eqsu', form.current, '3qQi5oql_Z7mvfp9r')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
+        .then(() => {
+            swal("Thank You!", "Message succesfully sent!", "success");
         });
         e.target.reset()
     };
@@ -24,10 +27,36 @@ const Contact = () => {
                 <h4 className='contact-header'>Leave me a message</h4>
 
                 <form className='form' ref={form} onSubmit={sendEmail} >
-                    <input className='input' type="text" name="user_name" placeholder='Full Name'/>
-                    <input className='input' type="email" name="user_email" placeholder='Your Email Adress'/>
-                    <textarea name="message" placeholder='Message'/>
-                    <input className='form-submit-btn' type="submit" value="Send" />
+
+                    <input
+                        type="text"
+                        name="user_name"
+                        className='input user-name' 
+                        placeholder='Full Name'
+                        required
+                    />
+
+                    <input
+                        type="email"
+                        name="user_email" 
+                        className='input user-email'
+                        placeholder='Your Email Adress'
+                        required
+                    />
+
+                    <textarea
+                        name="message"
+                        className='user-message'
+                        placeholder='Message'
+                        required
+                    />
+
+                    <input
+                        type="submit"
+                        className='form-submit-btn'
+                        value="Send" 
+                    />
+
                 </form>
             </div>
             
