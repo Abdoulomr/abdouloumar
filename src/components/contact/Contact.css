@@ -80,6 +80,7 @@ textarea:focus {
     font-size: 1rem;
     transition: .2s;
     border: none;
+    -webkit-appearance: none;
 }
 
 .form-submit-btn:hover {
