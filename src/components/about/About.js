@@ -33,16 +33,16 @@ const About = () => {
                             <span className="skill">CSS</span>
                             <span className="skill">JAVASCRIPT</span>
                             <span className="skill">REACT</span>
-                            <span className="skill">SASS</span>
+                            <span className="skill">RESPONSIVE</span>
                             <span className="skill">BOOTSTRAP</span>
                             <span className="skill">TALWIND</span>
-                            <span className="skill">FIGMA</span>
                             <span className="skill">SLACK</span>
                             <span className="skill">GIT</span>
                             <span className="skill">GITHUB</span>
                             <span className="skill">NPM</span>
                             <span className="skill">NETLIFY</span>
                             <span className="skill">ILLUSTRATOR</span>
+                            <span className="skill">FIGMA</span>
                             <span className="skill">PHOTOSHOP</span>
                             
                         </div>
