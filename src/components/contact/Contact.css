@@ -12,7 +12,7 @@
 
 .contact-wrapper {
     box-sizing: border-box;
-    width: 60vw;
+    width: 90vw;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.3);
@@ -36,6 +36,7 @@
     align-items: center;
     font-family: 'poppins';
     gap: 2rem;
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -44,7 +45,7 @@
 textarea {
     border: none;
     padding: .3rem 1.5rem;
-    min-width: 250px;
+    min-width: 280px;
     width: 90%;
     min-height: 50px;
     resize: none;
