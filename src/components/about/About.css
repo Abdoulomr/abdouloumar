@@ -46,7 +46,6 @@
     flex-wrap: wrap;
     margin-top: clamp(.7rem, 10vw, 3rem);
     gap: clamp(1rem, 10vw, 6rem);
-    text-align: left;
 }
 
 
@@ -56,6 +55,7 @@
     word-spacing: 4px;
     text-transform: uppercase;
     text-align: center;
+    width: fit-content;
     font-size: clamp(.8rem, 2vw, 1.5rem);
 
 }
@@ -106,7 +106,7 @@
     padding: 1rem .1rem;
     text-decoration: none;
     cursor: pointer;
-    margin: 3.1rem auto 0;
+    margin: 1.5rem 0;
     border-radius: 10px;
     transition: .3s ease-in-out;
     text-align: center;

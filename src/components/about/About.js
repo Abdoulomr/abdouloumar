@@ -47,7 +47,6 @@ const About = () => {
                             
                         </div>
 
-                        <AnchorLink className='btn resume-btn'>Get my reusme</AnchorLink>
                         
 
                     </div>
