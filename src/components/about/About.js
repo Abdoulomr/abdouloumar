@@ -36,6 +36,7 @@ const About = () => {
                             <span className="skill">RESPONSIVE</span>
                             <span className="skill">BOOTSTRAP</span>
                             <span className="skill">TALWIND</span>
+                            <span className="skill">SASS</span>
                             <span className="skill">SLACK</span>
                             <span className="skill">GIT</span>
                             <span className="skill">GITHUB</span>
