@@ -47,7 +47,7 @@ textarea {
     width: 90%;
     min-height: 50px;
     resize: none;
-    background-color: #eeeaf3;
+    background-color: #f7f5f9;
     color: #0f0f0f;
     font: clamp(.8rem, 2vw, 1rem);
 
