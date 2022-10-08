@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram, FaPhoneAlt } from 'react-icons/fa';
+import { GrMail } from "react-icons/gr";
 
 
 const Footer = () => {
@@ -24,6 +25,12 @@ const Footer = () => {
                     <a className='social' target="_blank" href="https://twitter.com/abdoulomr"><FaTwitter /></a>
                     <a className='social' target="_blank" href="https://www.instagram.com/abdoulsee/"><FaInstagram /></a>
                     </div>
+                </div>
+
+                <div className="footer-contact">
+                    <h2>Contact</h2>
+                    <span className='contact-ietm'><FaPhoneAlt className='contact-icon'/> <a className='social' href="tel:00221781145615">00221 78 114 56 15</a></span>
+                    <span className='contact-ietm'><GrMail className='contact-icon'/> <a className='social' href="mailto:abdoulomrsy@gmail.com">abdoulomrsy@gmail.com</a></span>
                 </div>
             </div>
             <hr className='line'/>

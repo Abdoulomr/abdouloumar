@@ -18,21 +18,32 @@
 .footer-top {
     display: flex;
     width: 100vw;
-    align-items: top;
+    height: fit-content;
     justify-content: space-around;
-    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: top;
 }
 
 
-.footer-description {
-    width: 30vw;
-    font-size: clamp(.9rem, 2vw, 1rem);
+.footer-intro {
+    width: 25vw;
     min-width: 350px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-description {
     color: var(--text-color);
+    font-size: clamp(.9rem, 2vw, 1rem);
+    text-align: center;
 }
 
 .footer-social {
-    width: 30vw;
+    width: 25vw;
+    align-items: center;
     min-width: 350px;
     display: flex;
     flex-direction: column;
@@ -44,9 +55,39 @@
     gap: 1rem;
 }
 
+.footer-contact {
+    width: 25vw;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+}
+
+.contact-icon {
+    font-size: clamp(.9rem, 2vw, 1.1rem);
+    color: var(--text-color);
+}
+
+.footer-contact span a {
+    text-decoration: none;
+    font-size: clamp(.9rem, 2vw, 1.1rem);
+}
+
+.footer-contact span a:hover {
+    scale: 1;
+}
+
+.contact-ietm {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
 .line {
     width: 100%;
     opacity: .5;
+    margin: 2rem 0;
 }
 
 .copyright {
@@ -62,4 +103,11 @@
 
 .copyright a:hover {
     color: var(--secondary-color);
+}
+
+@media screen and (max-width: 1120px) {
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
 }
