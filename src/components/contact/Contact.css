@@ -27,6 +27,7 @@
 .contact-header {
     margin: 0 0 3rem 0;
     color: var(--primary-color);
+    font-weight: 300;
 }
 
 .form {
