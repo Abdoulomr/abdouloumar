@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram, FaPhoneAlt } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter, FaPhoneAlt } from 'react-icons/fa';
+import { RiInstagramFill } from "react-icons/ri";
 import { GrMail } from "react-icons/gr";
 
 
@@ -23,7 +24,7 @@ const Footer = () => {
                     <a className='social' target="_blank" href="https://www.linkedin.com/in/abdoul-oumar-sy-b34443169/"><FaLinkedinIn /></a>
                     <a className='social' target="_blank" href="https://github.com/Abdoulomr"><FaGithub /></a>
                     <a className='social' target="_blank" href="https://twitter.com/abdoulomr"><FaTwitter /></a>
-                    <a className='social' target="_blank" href="https://www.instagram.com/abdoulsee/"><FaInstagram /></a>
+                    <a className='social' target="_blank" href="https://www.instagram.com/abdoulsee/"><RiInstagramFill /></a>
                     </div>
                 </div>
 

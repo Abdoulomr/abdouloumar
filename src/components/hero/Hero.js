@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
-import { FaGithub, FaLinkedinIn, FaTwitter, } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { RiInstagramFill } from "react-icons/ri";
 import Navbar from '../navbar/Navbar';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -20,9 +21,11 @@ const Hero = () => {
                 <AnchorLink href='#about' className='btn'>About me</AnchorLink>
 
                 <div className='socials'>
-                    <span ><FaGithub className='social'/></span>
-                    <span><FaLinkedinIn className='social'/></span>
-                    <span><FaTwitter className='social'/></span>
+
+                    <a className='social' target="_blank" href="https://www.linkedin.com/in/abdoul-oumar-sy-b34443169/"><FaLinkedinIn /></a>
+                    <a className='social' target="_blank" href="https://github.com/Abdoulomr"><FaGithub /></a>
+                    <a className='social' target="_blank" href="https://twitter.com/abdoulomr"><FaTwitter /></a>
+                    <a className='social' target="_blank" href="https://www.instagram.com/abdoulsee/"><RiInstagramFill /></a>
                 </div>
             </div>
         </div>
