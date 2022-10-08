@@ -29,8 +29,11 @@ const Footer = () => {
 
                 <div className="footer-contact">
                     <h2>Contact</h2>
-                    <span className='contact-ietm'><FaPhoneAlt className='contact-icon'/> <a className='social' href="tel:00221781145615">00221 78 114 56 15</a></span>
-                    <span className='contact-ietm'><GrMail className='contact-icon'/> <a className='social' href="mailto:abdoulomrsy@gmail.com">abdoulomrsy@gmail.com</a></span>
+                    <div className="footer-contacts">
+                        <span className='contact-ietm'><FaPhoneAlt className='contact-icon'/> <a className='social' href="tel:00221781145615">00221 78 114 56 15</a></span>
+                        <span className='contact-ietm'><GrMail className='contact-icon'/> <a className='social' href="mailto:abdoulomrsy@gmail.com">abdoulomrsy@gmail.com</a></span>
+                    </div>
+                   
                 </div>
             </div>
             <hr className='line'/>
