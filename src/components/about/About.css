@@ -1,16 +1,15 @@
 .about {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     min-height: 1000px;
     max-height: 1500px;
     text-align: center;
-    margin: auto;
 }
 
 .about-wrapper {
     height: fit-content;
     width: fit-content;
-    margin: auto;
+    margin: 4.5rem auto;
 }
 
 .section-title {

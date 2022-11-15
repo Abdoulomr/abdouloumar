@@ -20,7 +20,6 @@ const Navbar = () => {
     return (
       <nav>
         <div className="logo">
-          <img src="abdoul.png" alt="" className="my-photo" />
           {`<Abdoul />`} 
         </div>
 

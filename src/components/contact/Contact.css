@@ -1,6 +1,6 @@
 .contact {
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 4.5rem;
     min-height: 800px;
     text-align: center;
     margin: 0 clamp(.3rem, 2vw, 2rem);
