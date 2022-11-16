@@ -8,6 +8,10 @@ import Contact from './components/contact/Contact';
 function App() {
   document.title = 'Abdoul Oumar SY';
 
+  window.addEventListener('load', (event) => {
+    console.log('page is fully loaded');
+  });
+
   return (
       <div className="App">
         <Hero />
