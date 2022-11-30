@@ -72,26 +72,28 @@
 }
 
 .skill {
-  background-color: var(--text-color);
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
-  opacity: 0.5;
   width: fit-content;
-  font-size: 0.7rem;
+  font-size: 2rem;
   height: fit-content;
-  padding: 0.5rem 1rem;
-  border-radius: 0.2rem;
-  /* animation: pulse 2s infinite ease-in-out alternate; */
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  animation: pulse 2s infinite ease-in-out alternate;
 }
 
-/* @keyframes pulse {
-    from {
-        transform: scale(1);
-    }
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
 
-    to {
-        transform: scale(1.06);
-    }
-} */
+  to {
+    transform: scale(1.06);
+  }
+}
 
 .contact-btn {
   display: block;
