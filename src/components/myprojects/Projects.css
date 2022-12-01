@@ -1,9 +1,9 @@
 .projects {
   height: fit-content;
-  padding: 100px 0 20px 0;
-  min-height: 800px;
+  padding: 75px 0 20px 0;
+  width: 100%;
   text-align: center;
-  margin: 0 clamp(0.3rem, 2vw, 2rem);
+  margin: 0 auto;
   background-color: #fafafa;
   color: var(--text-color);
 }
@@ -14,10 +14,11 @@
 
 .projects-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  margin: 4rem auto 0;
-  justify-content: space-between;
+  margin: 2.5rem auto 0;
   align-items: center;
   width: 90vw;
   max-width: 850px;
@@ -26,40 +27,64 @@
 
 .project {
   width: 100%;
+  max-height: max-content;
   cursor: pointer;
   padding: 0 0 20px;
-  max-width: 400px;
+  max-width: 280px;
+  aspect-ratio: 16 / 9;
   opacity: 1;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
-.project:hover {
-  opacity: 0.9;
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
 }
 
 .project-img {
-  max-width: 800px;
   width: 100%;
   object-fit: contain;
   aspect-ratio: 16 / 9;
-  border-radius: 5px;
-  /* box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5); */
+  border-radius: 5px 5px 0 0;
 }
 
 .project-title {
-  font-size: clamp(1rem, 2vw, 1.1rem);
+  font-size: 0.9rem;
+  margin: 0;
+}
+.project-description {
+  font-size: 0.7rem;
+  margin: 0.4rem;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .project-link {
-  text-decoration: none;
-  margin-bottom: -1rem;
-  color: #fafafa;
-  padding: 0.2rem 1rem;
-  /* border-radius: 5px; */
-  background-color: var(--primary-color);
-  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  color: #fff;
+  transition: 0.2s;
 }
 
 .project-link:hover {
-  opacity: 1;
+  background-color: var(--primary-color);
+  scale: 1.1;
+}
+
+.tooltip {
+  font-size: 0.7rem !important;
 }
