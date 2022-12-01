@@ -1,7 +1,6 @@
 .contact {
-  height: 100vh;
-  padding-top: 4.5rem;
-  min-height: 800px;
+  height: fit-content;
+  padding-top: 4rem;
   text-align: center;
   margin: 0 clamp(0.3rem, 2vw, 2rem);
   background-color: #fafafa;
@@ -12,13 +11,12 @@
   box-sizing: border-box;
   width: 90vw;
   border-radius: 2px;
-  background-color: #fff;
+  background-color: #fafafa;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
   max-width: 800px;
   min-width: 350px;
   height: fit-content;
-  margin: auto;
-  margin-top: 3rem;
+  margin: 4rem auto;
   padding: 1.5rem 3rem;
   z-index: -999;
 }
@@ -72,11 +70,10 @@ textarea:focus {
 }
 
 .form-submit-btn {
-  background: transparent;
-  color: var(--primary-color);
-  padding: 0.8rem 2rem;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 4rem;
   border-radius: 1px;
-  cursor: pointer;
   font-size: 0.8rem;
   transition: 0.2s;
   position: relative;
@@ -84,20 +81,10 @@ textarea:focus {
   outline: 1px solid var(--text-color);
 }
 
-.form-submit-btn::after {
-  content: "";
-  background-color: var(--primary-color);
-  position: absolute;
-  top: 7px;
-  left: 7px;
-  width: 100%;
-  height: 100%;
-  z-index: -9;
-}
-
-/* .form-submit-btn:hover {
+.form-submit-btn:hover {
   background-color: var(--secondary-color);
-} */
+  cursor: pointer;
+}
 
 /* Sweet alert styling */
 

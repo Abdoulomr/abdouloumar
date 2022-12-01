@@ -14,14 +14,13 @@
 
 .projects-wrapper {
   display: flex;
-  flex-direction: column;
-  gap: 5rem;
-  gap: rem;
+  flex-wrap: wrap;
+  gap: 2rem;
   margin: 4rem auto 0;
   justify-content: space-between;
   align-items: center;
   width: 90vw;
-  max-width: 800px;
+  max-width: 850px;
   background-color: #fafafa;
 }
 

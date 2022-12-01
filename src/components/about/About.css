@@ -14,6 +14,8 @@
 
 .section-title {
   letter-spacing: 5px;
+  width: fit-content;
+  margin: 0 auto;
   word-spacing: 10px;
   font-size: clamp(0.9em, 2vw, 1.2rem);
   font-family: source sans pro;
@@ -23,12 +25,12 @@
 
 .section-title::after {
   content: "";
-  width: 40px;
-  height: 6px;
+  width: 30%;
+  height: 4px;
   background-color: var(--primary-color);
   border-radius: 10px;
   position: absolute;
-  bottom: -15px;
+  bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
 }

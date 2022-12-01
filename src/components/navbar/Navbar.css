@@ -117,4 +117,8 @@ nav {
     display: block;
     z-index: 999;
   }
+
+  .nav-items-wrapper {
+    padding: 0 2rem;
+  }
 }
