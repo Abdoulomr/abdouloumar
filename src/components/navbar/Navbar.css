@@ -1,25 +1,32 @@
 nav {
-  height: 90px;
   display: flex;
-  /* background-color: rgb(255, 255, 255); */
-  background: transparent;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 3rem;
+  justify-content: center;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
   font-family: poppins;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   width: 100vw;
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   z-index: 989;
-  /* box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03); */
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+
+.nav-items-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100vw;
+  max-width: 1920px;
+  padding: 0 5rem;
 }
 
 .logo {
   color: var(--primary-color);
   cursor: pointer;
   text-transform: uppercase;
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-size: clamp(0.6rem, 2vw, 0.8rem);
   font-weight: 600;
   display: flex;
   gap: 10px;
@@ -30,9 +37,9 @@ nav {
   color: var(--secondary-color);
 }
 
-.my-photo {
+/* .my-photo {
   max-width: 30px;
-}
+} */
 
 .nav-list {
   display: flex;
@@ -50,7 +57,7 @@ nav {
   color: #3f3f59;
   transition: 0.3s ease-in-out;
   position: relative;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 
 .nav-link:hover {
@@ -61,8 +68,8 @@ nav {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -10px;
-  height: 3px;
+  bottom: -7px;
+  height: 2px;
   width: 0;
   background-color: var(--primary-color);
   transition: 0.4s;

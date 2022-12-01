@@ -1,91 +1,124 @@
 .hero {
-    text-align: center;
-    margin-top: 0;
-    width: 100%;
-    height: 100vh;
-    max-height: 1080px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    background: url('../../../public/bg-texture.jpg');
-    background-size: cover;
-
+  text-align: center;
+  margin-top: 0;
+  width: 100%;
+  height: 100vh;
+  max-height: 1080px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background: url("../../../public/bg-texture.jpg");
+  background-size: cover;
 }
 
 .content {
-    width: 85vw;
-    margin: auto;
-    max-width: 1200px;
+  width: 85vw;
+  margin: auto;
+  max-width: 1200px;
 }
 
 .me {
-    margin-top: 0;
-    font-family: 'Source sans Pro';
-    color: var(--primary-color);
-    font-weight: 900;
-    font-size: clamp(2.5rem, 3.5vw, 6rem);
-    text-transform: uppercase;
+  margin-top: 0;
+  font-family: "Source sans Pro";
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: clamp(2.5rem, 3.5vw, 6rem);
+  text-transform: uppercase;
 }
 
-
-
 .presentation {
-    color: var(--text-color);
-    font-family: poppins;
-    font-weight: 600;
-    margin: 0 auto;
-    max-width: 800px;
-    word-spacing: 5px;
-    width: 80vw;
-    font-size: clamp(1rem, 2vw, 1.3rem);
+  color: var(--text-color);
+  font-family: poppins;
+  font-weight: 600;
+  margin: 0 auto;
+  max-width: 620px;
+  word-spacing: 5px;
+  width: 80vw;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  text-align: center;
 }
 
 .btn {
-    display: block;
-    background-color: var(--primary-color);
-    color: #fff;
-    max-width: 180px;
-    border: none;
-    font-size: clamp(.8rem, 1.1vw, 1rem);
-    padding: 1rem .1rem;
-    text-decoration: none;
-    cursor: pointer;
-    margin: 5rem auto;
-    border-radius: 10px;
-    transition: .3s ease-in-out;
-    text-align: center;
-    opacity: .9;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
-
-
+  display: block;
+  background: transparent;
+  font-weight: 200;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  max-width: 150px;
+  outline: 1px solid var(--text-color);
+  border: none;
+  font-size: 16px;
+  padding: 13px 20px 13px;
+  text-decoration: none;
+  margin: 5rem auto;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 2px;
+  z-index: 1;
 }
 
-.btn:hover {
-    opacity: 1;
+.btn::after {
+  content: "";
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+.btn:hover::after {
+  top: 0;
+  left: 0;
 }
 
 .socials {
-    margin-top: 3rem;
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 .social {
-    font-size: 1.7rem;
-    color: var(--text-color);
-    cursor: pointer;
-    transition: .3s;
+  font-size: 1.7rem;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .social:hover {
-    scale: 1.1;
-    color: var(--primary-color);
+  scale: 1.1;
+  color: var(--primary-color);
 }
 
 @media screen and (max-width: 745px) {
-    .hero {
-        max-height: 800px;
-    }
+  .hero {
+    max-height: 800px;
+  }
 }
+
+/* .btn {
+    display: block;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+    max-width: 180px;
+    border: none;
+    font-size: clamp(0.8rem, 1.1vw, 1rem);
+    padding: 1rem 0.1rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5rem auto;
+    /* border-radius: 10px; */
+/* transition: 0.3s ease-in-out;
+    text-align: center;
+    opacity: 0.9;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+  /* } */
