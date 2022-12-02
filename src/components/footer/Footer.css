@@ -3,9 +3,15 @@ footer {
   display: flex;
   justify-content: center;
   width: 100vw;
+  padding: 0 2rem;
 }
 
-.footer-elements-wrapper {
+footer h2 {
+  font-size: clamp(1.1rem, 2%, 1.4rem);
+  opacity: 0.6;
+}
+
+footer .footer-elements-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -15,18 +21,13 @@ footer {
   min-height: 400px;
 }
 
-footer h2 {
-  font-size: clamp(1.1rem, 2%, 1.4rem);
-  opacity: 0.6;
-}
-
 .footer-top {
   display: flex;
-  width: 100vw;
   height: fit-content;
   justify-content: space-around;
   gap: 2rem;
   align-items: top;
+  max-width: 1200px !important;
 }
 
 .footer-intro {
