@@ -55,9 +55,6 @@ const About = () => {
                 <FaHtml5 />
               </span>
               <span className="skill">
-                <FaSass />
-              </span>
-              <span className="skill">
                 <FaCss3Alt />
               </span>
               <span className="skill">
@@ -72,9 +69,9 @@ const About = () => {
               <span className="skill">
                 <SiTailwindcss />
               </span>
-              {/* <span className="skill">
+              <span className="skill">
                 <FaSass />
-              </span> */}
+              </span>
               <span className="skill">
                 <FaSlack />
               </span>
