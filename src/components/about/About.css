@@ -37,7 +37,7 @@
 
 .section-subtitle {
   margin-top: 3rem;
-  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-size: clamp(0.5rem, 2vw, 0.8rem);
 }
 
 .about-content {
@@ -55,18 +55,18 @@
   text-transform: uppercase;
   text-align: center;
   width: fit-content;
-  font-size: clamp(0.8rem, 2vw, 1.5rem);
+  font-size: clamp(0.6rem, 2vw, 1rem);
 }
 
 .about-me-text {
   text-align: left;
   max-width: 400px;
-  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  font-size: clamp(0.5rem, 2vw, 0.8rem);
 }
 
 .my-skills {
   display: flex;
-  max-width: 400px;
+  max-width: 280px;
   width: 90vw;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -80,9 +80,9 @@
   justify-content: center;
   color: #fff;
   width: fit-content;
-  font-size: 2rem;
+  font-size: 1.8rem;
   height: fit-content;
-  padding: 0.5rem;
+  padding: 0.4rem;
   border-radius: 0.1rem;
   animation: pulse 2s infinite ease-in-out alternate;
 }
@@ -104,7 +104,7 @@
   color: #fff;
   letter-spacing: 1px;
   border: none;
-  max-width: 150px;
+  max-width: 130px;
   outline: 1px solid var(--text-color);
   border: none;
   font-size: 16px;

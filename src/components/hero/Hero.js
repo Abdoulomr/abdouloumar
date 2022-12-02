@@ -28,6 +28,7 @@ const Hero = () => {
             <a
               className="social"
               target="_blank"
+              rel="noreferrer noopener"
               href="https://www.linkedin.com/in/abdoul-oumar-sy-b34443169/"
             >
               <FaLinkedinIn />
@@ -36,6 +37,7 @@ const Hero = () => {
               className="social"
               target="_blank"
               href="https://github.com/Abdoulomr"
+              rel="noreferrer noopener"
             >
               <FaGithub />
             </a>
@@ -43,12 +45,14 @@ const Hero = () => {
               className="social"
               target="_blank"
               href="https://twitter.com/abdoulomr"
+              rel="noreferrer noopener"
             >
               <FaTwitter />
             </a>
             <a
               className="social"
               target="_blank"
+              rel="noreferrer noopener"
               href="https://www.instagram.com/abdoulsee/"
             >
               <RiInstagramFill />

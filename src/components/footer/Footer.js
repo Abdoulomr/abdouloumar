@@ -24,6 +24,7 @@ const Footer = () => {
               <a
                 className="social"
                 target="_blank"
+                rel="noreferrer noopener"
                 href="https://www.linkedin.com/in/abdoul-oumar-sy-b34443169/"
               >
                 <FaLinkedinIn />
@@ -31,6 +32,7 @@ const Footer = () => {
               <a
                 className="social"
                 target="_blank"
+                rel="noreferrer noopener"
                 href="https://github.com/Abdoulomr"
               >
                 <FaGithub />
@@ -38,6 +40,7 @@ const Footer = () => {
               <a
                 className="social"
                 target="_blank"
+                rel="noreferrer noopener"
                 href="https://twitter.com/abdoulomr"
               >
                 <FaTwitter />
@@ -45,6 +48,7 @@ const Footer = () => {
               <a
                 className="social"
                 target="_blank"
+                rel="noreferrer noopener"
                 href="https://www.instagram.com/abdoulsee/"
               >
                 <RiInstagramFill />

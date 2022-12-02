@@ -23,7 +23,7 @@
   font-family: "Source sans Pro";
   color: var(--primary-color);
   font-weight: 900;
-  font-size: clamp(2.5rem, 3.5vw, 6rem);
+  font-size: clamp(2rem, 3.5vw, 6rem);
   text-transform: uppercase;
 }
 
@@ -35,7 +35,7 @@
   max-width: 620px;
   word-spacing: 5px;
   width: 80vw;
-  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  font-size: clamp(0.7rem, 2vw, 1.2rem);
   text-align: center;
 }
 
@@ -46,7 +46,7 @@
   color: #fff;
   letter-spacing: 1px;
   border: none;
-  max-width: 150px;
+  max-width: 130px;
   outline: 1px solid var(--text-color);
   border: none;
   font-size: 16px;

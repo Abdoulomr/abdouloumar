@@ -11,6 +11,7 @@ import {
   FaGitAlt,
   FaNpm,
   FaFigma,
+  FaSass,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import {
@@ -34,12 +35,12 @@ const About = () => {
           <div className="about-me">
             <h2 className="about-me-title">Get to know me</h2>
             <p className="about-me-text">
-              I'm a Frontend Web Developer building the Front-end of Websites
-              and Web Applications that leads to the success of the overall
-              product. Check out some of my work in the Projects section. <br />
+              I love creating pages where I’m able to actually make enjoyable
+              interactions and experiences for everyone! <br /> <br />
               I'm open to Job opportunities where I can contribute, learn and
               grow. If you have a good opportunity that matches my skills and
-              experience then don't hesitate to contact me.
+              experience then don't hesitate to contact me. <br /> <br />
+              Check out some of my work in the Projects section.
             </p>
             <AnchorLink href="#contact" className="btn contact-btn">
               Contact
@@ -52,6 +53,9 @@ const About = () => {
             <div className="my-skills">
               <span className="skill">
                 <FaHtml5 />
+              </span>
+              <span className="skill">
+                <FaSass />
               </span>
               <span className="skill">
                 <FaCss3Alt />
