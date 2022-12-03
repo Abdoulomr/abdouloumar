@@ -23,7 +23,13 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-items-wrapper">
-        <div className="logo">{`<Abdoul />`}</div>
+        <AnchorLink
+          className="logo"
+          href={navLinks[0].id}
+          // onClick={toggle && onToggle}
+        >
+          {`<Abdoul />`}
+        </AnchorLink>
 
         <ul className={`nav-list ${toggle && "nav-active"}`}>
           {navLinks.map((navLink, index) => {

@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       projectName: "Marvel quiz",
-      projectLink: "#",
+      projectLink: "https://mymarvelquiz.netlify.app/",
       projectDescription: "React project for practice",
       projectIMG: "marvel-quiz.png",
       gitRepo: "#",

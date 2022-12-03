@@ -16,7 +16,6 @@ footer .footer-elements-wrapper {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem 5rem;
   color: #fafafa;
   min-height: 400px;
 }
