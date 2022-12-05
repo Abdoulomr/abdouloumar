@@ -26,7 +26,7 @@ nav {
   color: var(--primary-color);
   cursor: pointer;
   text-transform: uppercase;
-  font-size: clamp(0.6rem, 2vw, 0.8rem);
+  font-size: clamp(0.7rem, 2vw, 0.9rem);
   font-weight: 600;
   display: flex;
   gap: 10px;
@@ -93,6 +93,9 @@ nav {
 }
 
 @media screen and (max-width: 745px) {
+  nav {
+    height: 60px;
+  }
   .nav-list {
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -103,7 +106,7 @@ nav {
     right: -100%;
     visibility: hidden;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     padding: 90px 0;
     transition: all 0.5s ease;
   }

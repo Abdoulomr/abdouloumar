@@ -17,7 +17,7 @@
   width: fit-content;
   margin: 0 auto;
   word-spacing: 10px;
-  font-size: clamp(0.9em, 2vw, 1.2rem);
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
   font-family: source sans pro;
   text-transform: uppercase;
   position: relative;
@@ -37,7 +37,7 @@
 
 .section-subtitle {
   margin-top: 3rem;
-  font-size: clamp(0.5rem, 2vw, 0.8rem);
+  font-size: clamp(0.7rem, 2vw, 0.9rem);
 }
 
 .about-content {
@@ -61,7 +61,7 @@
 .about-me-text {
   text-align: left;
   max-width: 400px;
-  font-size: clamp(0.5rem, 2vw, 0.8rem);
+  font-size: clamp(0.7rem, 2vw, 0.8rem);
 }
 
 .my-skills {
@@ -138,27 +138,23 @@
 }
 
 @media screen and (max-width: 745px) {
-  .about {
-    padding: 0 20px;
-  }
-
-  .about-content {
-    gap: 4rem;
-  }
-
-  .about-me-title {
-    margin: 0 0 1.2rem;
-  }
-
-  .btn {
-    margin-top: 2rem;
-  }
-
   .contact-btn {
-    margin: 1.5rem auto;
+    margin-top: 2.5rem;
+    padding: 12px 0;
+    font-size: 12px;
+  }
+
+  .about-wrapper {
+    height: fit-content;
+    width: fit-content;
+    margin: 4.5rem auto 0.5rem;
   }
 
   .section-subtitle {
-    margin-top: 2rem;
+    margin-top: 1.3rem;
+  }
+
+  .about-content {
+    padding-top: 0.5rem;
   }
 }

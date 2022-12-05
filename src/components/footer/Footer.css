@@ -42,6 +42,8 @@ footer .footer-elements-wrapper {
   color: var(--text-color);
   font-size: clamp(0.9rem, 2%, 1rem);
   text-align: center;
+  padding: 0 20px;
+
   margin: 0;
 }
 
@@ -112,11 +114,4 @@ footer .footer-elements-wrapper {
 
 .copyright a:hover {
   color: var(--secondary-color);
-}
-
-@media screen and (max-width: 1120px) {
-  .footer-top {
-    flex-direction: column;
-    align-items: center;
-  }
 }
