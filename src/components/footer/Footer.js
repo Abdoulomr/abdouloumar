@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaPhoneAlt } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { GrMail } from "react-icons/gr";
 import { motion } from "framer-motion";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Footer = () => {
   return (
@@ -123,7 +124,8 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            © Copyright 2022. Made by <a href="#">Abdoul Oumar SY</a>
+            © Copyright 2022. Made by{" "}
+            <AnchorLink href="#hero">Abdoul Oumar SY</AnchorLink>
           </motion.p>
         </div>
       </div>

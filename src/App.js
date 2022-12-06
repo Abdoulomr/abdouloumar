@@ -1,25 +1,21 @@
-import './App.css';
-import Hero from './components/hero/Hero';
-import About from './components/about/About';
-import Projects from './components/myprojects/Projects';
-import Footer from './components/footer/Footer';
-import Contact from './components/contact/Contact';
+import "./App.css";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
+import Projects from "./components/myprojects/Projects";
+import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
 
 function App() {
-  document.title = 'Abdoul Oumar SY';
-
-  window.addEventListener('load', (event) => {
-    console.log('page is fully loaded');
-  });
+  document.title = "Abdoul Oumar SY";
 
   return (
-      <div className="App">
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
+    <div className="App">
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

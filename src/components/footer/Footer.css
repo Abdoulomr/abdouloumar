@@ -112,6 +112,6 @@ footer .footer-elements-wrapper {
   transition: 0.2s;
 }
 
-.copyright a:hover {
+.copyright AnchorLink:hover {
   color: var(--secondary-color);
 }

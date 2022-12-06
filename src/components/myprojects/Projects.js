@@ -10,7 +10,7 @@ const Projects = () => {
       projectName: "Mobyresto",
       projectLink: "https://mobyresto.com/home",
       projectDescription: "Mobyresto marketplace",
-      projectIMG: "mobyresto.png",
+      projectIMG: "mobyresto.jpg",
       gitRepo: "#",
     },
     {
