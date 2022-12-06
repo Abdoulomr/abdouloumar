@@ -29,11 +29,11 @@ const Projects = () => {
         "https://github.com/Abdoulomr/intro-section-with-dropdown-navigation-main",
     },
     {
-      projectName: "Marvel quiz",
-      projectLink: "https://mymarvelquiz.netlify.app/",
-      projectDescription: "React project for practice",
-      projectIMG: "marvel-quiz.png",
-      gitRepo: "#",
+      projectName: "Todo App",
+      projectLink: "https://abdoulstodo.netlify.app/",
+      projectDescription: "Todo app made with React",
+      projectIMG: "todo.png",
+      gitRepo: "https://github.com/Abdoulomr/Abdouls-Todo-App",
     },
   ];
 
