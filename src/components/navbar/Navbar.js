@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { CgMenuRight, CgClose } from "react-icons/cg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -22,7 +23,13 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="nav-items-wrapper">
+      <motion.div
+        className="nav-items-wrapper"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
         <AnchorLink
           className="logo"
           href={navLinks[0].id}
@@ -58,7 +65,7 @@ const Navbar = () => {
             </div>
           )}
         </div>
-      </div>
+      </motion.div>
     </nav>
   );
 };

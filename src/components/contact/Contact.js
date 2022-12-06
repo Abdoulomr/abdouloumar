@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import swal from "sweetalert";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const form = useRef();
@@ -23,35 +24,71 @@ const Contact = () => {
   };
   return (
     <section className="contact" id="contact">
-      <h1 className="section-title">Contact me</h1>
+      <motion.h1
+        className="section-title"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        Contact me
+      </motion.h1>
       <div className="contact-wrapper">
-        <h4 className="contact-header">Leave me a message</h4>
+        <motion.h4
+          className="contact-header"
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
+          Leave me a message
+        </motion.h4>
 
         <form className="form" ref={form} onSubmit={sendEmail}>
-          <input
+          <motion.input
             type="text"
             name="user_name"
             className="input user-name"
             placeholder="Full Name"
             required
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
           />
 
-          <input
+          <motion.input
             type="email"
             name="user_email"
             className="input user-email"
             placeholder="Your Email Adress"
             required
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
           />
 
-          <textarea
+          <motion.textarea
             name="message"
             className="user-message"
             placeholder="Message"
             required
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
           />
 
-          <input type="submit" className="form-submit-btn" value="Send" />
+          <motion.input
+            type="submit"
+            className="form-submit-btn"
+            value="Send"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+          />
         </form>
       </div>
     </section>

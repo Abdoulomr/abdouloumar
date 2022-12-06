@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import ReactTooltip from "react-tooltip";
 import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   const myProjects = [
@@ -38,12 +39,27 @@ const Projects = () => {
 
   return (
     <section className="projects" id="projects">
-      <h1 className="section-title">Projects & Expriences</h1>
+      <motion.h1
+        className="section-title"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        Projects & Expriences
+      </motion.h1>
 
       <div className="projects-wrapper">
         {myProjects.map((project, index) => {
           return (
-            <div className="project" key={index}>
+            <motion.div
+              className="project"
+              key={index}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
               <img
                 className="project-img"
                 src={project.projectIMG}
@@ -90,7 +106,7 @@ const Projects = () => {
                   />
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>

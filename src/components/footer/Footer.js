@@ -3,6 +3,7 @@ import "./Footer.css";
 import { FaGithub, FaLinkedinIn, FaTwitter, FaPhoneAlt } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { GrMail } from "react-icons/gr";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -10,17 +11,43 @@ const Footer = () => {
       <div className="footer-elements-wrapper">
         <div className="footer-top">
           <div className="footer-intro">
-            <h2>Abdoul Oumar SY</h2>
-            <p className="footer-description">
+            <motion.h2
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
+              Abdoul Oumar SY
+            </motion.h2>
+            <motion.p
+              className="footer-description"
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
               A Frontend focused Web Developer building the Frontend of Websites
               and Web Applications that leads to the success of the overall
               product
-            </p>
+            </motion.p>
           </div>
 
           <div className="footer-social">
-            <h2>Social</h2>
-            <div className="footer-socials">
+            <motion.h2
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
+              Social
+            </motion.h2>
+            <motion.div
+              className="footer-socials"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
               <a
                 className="social"
                 target="_blank"
@@ -53,12 +80,25 @@ const Footer = () => {
               >
                 <RiInstagramFill />
               </a>
-            </div>
+            </motion.div>
           </div>
 
           <div className="footer-contact">
-            <h2>Contact</h2>
-            <div className="footer-contacts">
+            <motion.h2
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
+              Contact
+            </motion.h2>
+            <motion.div
+              className="footer-contacts"
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
               <span className="contact-ietm">
                 <FaPhoneAlt className="contact-icon" />{" "}
                 <a className="social" href="tel:00221781145615">
@@ -71,14 +111,20 @@ const Footer = () => {
                   abdoulomrsy@gmail.com
                 </a>
               </span>
-            </div>
+            </motion.div>
           </div>
         </div>
         <hr className="line" />
         <div className="footer-bottom">
-          <p className="copyright">
+          <motion.p
+            className="copyright"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+          >
             © Copyright 2022. Made by <a href="#">Abdoul Oumar SY</a>
-          </p>
+          </motion.p>
         </div>
       </div>
     </footer>

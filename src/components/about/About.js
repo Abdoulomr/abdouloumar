@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { motion } from "framer-motion";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -25,32 +26,81 @@ const About = () => {
   return (
     <section className="about" id="about">
       <div className="about-wrapper">
-        <h1 className="section-title">About me</h1>
-        <p className="section-subtitle">
+        <motion.h1
+          className="section-title"
+          initial={{ opacity: 0, y: 35 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
+          About me
+        </motion.h1>
+        <motion.p
+          className="section-subtitle"
+          initial={{ opacity: 0, y: 35 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           Here you will find more information about me, what i do and my current
           skills
-        </p>
+        </motion.p>
 
         <div className="about-content">
           <div className="about-me">
-            <h2 className="about-me-title">Get to know me</h2>
-            <p className="about-me-text">
+            <motion.h2
+              className="about-me-title "
+              initial={{ opacity: 0, x: -35 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
+              Get to know me
+            </motion.h2>
+            <motion.p
+              className="about-me-text"
+              initial={{ opacity: 0, x: -35 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
               I love creating pages where I’m able to actually make enjoyable
               interactions and experiences for everyone! <br /> <br />
               I'm open to Job opportunities where I can contribute, learn and
               grow. If you have a good opportunity that matches my skills and
               experience then don't hesitate to contact me. <br /> <br />
               Check out some of my work in the Projects section.
-            </p>
-            <AnchorLink href="#contact" className="btn contact-btn">
-              Contact
-            </AnchorLink>
+            </motion.p>
+            <motion.span
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
+              <AnchorLink href="#contact" className="btn contact-btn">
+                Contact
+              </AnchorLink>
+            </motion.span>
           </div>
 
           <div className="skills">
-            <h2 className="about-me-title">Tech stack & skills</h2>
+            <motion.h2
+              className="about-me-title"
+              initial={{ opacity: 0, x: 35 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
+              Tech stack & skills
+            </motion.h2>
 
-            <div className="my-skills">
+            <motion.div
+              className="my-skills"
+              initial={{ opacity: 0, x: 35 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
               <span className="skill">
                 <FaHtml5 />
               </span>
@@ -97,7 +147,7 @@ const About = () => {
               <span className="skill">
                 <SiAdobephotoshop />
               </span>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
