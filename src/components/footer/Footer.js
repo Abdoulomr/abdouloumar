@@ -91,7 +91,7 @@ const Footer = () => {
               viewport={{ once: true }}
               transition={{ duration: 1 }}
             >
-              Contact
+              Reach me
             </motion.h2>
             <motion.div
               className="footer-contacts"

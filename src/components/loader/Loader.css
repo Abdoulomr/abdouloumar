@@ -1,0 +1,8 @@
+.loader {
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  background: url("../../../public/loader.gif") no-repeat center center;
+  background-color: #e2dce9;
+  position: fixed;
+}

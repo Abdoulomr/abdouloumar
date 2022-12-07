@@ -18,7 +18,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8, delay: 3 }}
           >
             Hi, I'm Abdoul Oumar SY
           </motion.h1>
@@ -28,7 +28,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 1, delay: 3 }}
           >
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
@@ -39,7 +39,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1.5 }}
+            transition={{ duration: 1.5, delay: 3 }}
           >
             <AnchorLink href="#about" className="btn" role="button">
               About me
@@ -51,7 +51,12 @@ const Hero = () => {
             initial={{ opacity: 0, y: 35 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
+            transition={{
+              type: "spring",
+              stiffness: 100,
+              duration: 0.5,
+              delay: 3,
+            }}
           >
             <a
               className="social"
