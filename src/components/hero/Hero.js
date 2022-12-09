@@ -18,7 +18,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 3 }}
+            transition={{ duration: 0.7, delay: 3 }}
           >
             Hi, I'm Abdoul Oumar SY
           </motion.h1>
@@ -28,7 +28,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1, delay: 3 }}
+            transition={{ duration: 0.6, delay: 3 }}
           >
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall

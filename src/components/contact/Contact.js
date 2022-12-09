@@ -80,15 +80,16 @@ const Contact = () => {
             transition={{ duration: 1 }}
           />
 
-          <motion.input
+          <motion.button
             type="submit"
             className="form-submit-btn"
-            value="Send"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-          />
+          >
+            Send
+          </motion.button>
         </form>
       </div>
     </section>
