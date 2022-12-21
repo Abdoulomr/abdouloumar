@@ -44,7 +44,7 @@ const Projects = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.8 }}
       >
         Projects & Expriences
       </motion.h1>
@@ -58,54 +58,61 @@ const Projects = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
             >
-              <img
-                className="project-img"
-                src={project.projectIMG}
-                alt={project.projectName}
-              />
-              <div className="detail">
-                <h3 className="project-title">{project.projectName}</h3>
-                <p className="project-description">
-                  {project.projectDescription}
-                </p>
-                <div className="project-links">
-                  <a
-                    className="project-link"
-                    target="_blank"
-                    href={project.projectLink}
-                    rel="noreferrer noopener"
-                    data-tip="Visit"
-                  >
-                    <AiOutlineLink />
-                  </a>
-                  <ReactTooltip
-                    place="bottom"
-                    effect="solid"
-                    padding="5px"
-                    backgroundColor="#5207cc"
-                    className="tooltip"
-                  />
+              <a
+                href={project.projectLink}
+                className="wrapper-link"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <img
+                  className="project-img"
+                  src={project.projectIMG}
+                  alt={project.projectName}
+                />
+                <div className="detail">
+                  <h3 className="project-title">{project.projectName}</h3>
+                  <p className="project-description">
+                    {project.projectDescription}
+                  </p>
+                  <div className="project-links">
+                    <a
+                      className="project-link"
+                      target="_blank"
+                      href={project.projectLink}
+                      rel="noreferrer noopener"
+                      data-tip="Visit"
+                    >
+                      <AiOutlineLink />
+                    </a>
+                    <ReactTooltip
+                      place="bottom"
+                      effect="solid"
+                      padding="5px"
+                      backgroundColor="#5207cc"
+                      className="tooltip"
+                    />
 
-                  <a
-                    className="project-link"
-                    target="_blank"
-                    href={project.gitRepo}
-                    data-tip="Github Repo"
-                    rel="noreferrer noopener"
-                  >
-                    <AiFillGithub />
-                  </a>
-                  <ReactTooltip
-                    place="bottom"
-                    effect="solid"
-                    padding="5px"
-                    backgroundColor="#5207cc"
-                    className="tooltip"
-                  />
+                    <a
+                      className="project-link"
+                      target="_blank"
+                      href={project.gitRepo}
+                      data-tip="Github Repo"
+                      rel="noreferrer noopener"
+                    >
+                      <AiFillGithub />
+                    </a>
+                    <ReactTooltip
+                      place="bottom"
+                      effect="solid"
+                      padding="5px"
+                      backgroundColor="#5207cc"
+                      className="tooltip"
+                    />
+                  </div>
                 </div>
-              </div>
+              </a>
             </motion.div>
           );
         })}

@@ -31,7 +31,7 @@ const About = () => {
           initial={{ opacity: 0, y: 35 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
         >
           About me
         </motion.h1>
@@ -40,7 +40,7 @@ const About = () => {
           initial={{ opacity: 0, y: 35 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
         >
           Here you will find more information about me, what i do and my current
           skills
@@ -53,7 +53,7 @@ const About = () => {
               initial={{ opacity: 0, x: -35 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
             >
               Get to know me
             </motion.h2>
@@ -62,7 +62,7 @@ const About = () => {
               initial={{ opacity: 0, x: -35 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
             >
               I love creating pages where I’m able to actually make enjoyable
               interactions and experiences for everyone! <br /> <br />
@@ -75,7 +75,7 @@ const About = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
             >
               <AnchorLink href="#contact" className="btn contact-btn">
                 Contact
@@ -89,7 +89,7 @@ const About = () => {
               initial={{ opacity: 0, x: 35 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
             >
               Tech stack & skills
             </motion.h2>
@@ -99,7 +99,7 @@ const About = () => {
               initial={{ opacity: 0, x: 35 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
             >
               <span className="skill">
                 <FaHtml5 />
