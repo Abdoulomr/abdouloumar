@@ -16,7 +16,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: -30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.7 }}
             >
               Abdoul Oumar SY
             </motion.h2>
@@ -25,7 +25,7 @@ const Footer = () => {
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.7 }}
             >
               A Frontend focused Web Developer building the Frontend of Websites
               and Web Applications that leads to the success of the overall
@@ -38,7 +38,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: -30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.7 }}
             >
               Social
             </motion.h2>
@@ -47,7 +47,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.7 }}
             >
               <a
                 className="social"
@@ -89,7 +89,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: -30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.7 }}
             >
               Reach me
             </motion.h2>
@@ -98,7 +98,7 @@ const Footer = () => {
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.7 }}
             >
               <span className="contact-ietm">
                 <FaPhoneAlt className="contact-icon" />{" "}
@@ -122,7 +122,7 @@ const Footer = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.7 }}
           >
             © Copyright 2022. Made by{" "}
             <AnchorLink href="#hero">Abdoul Oumar SY</AnchorLink>
