@@ -29,13 +29,12 @@
 
 .presentation {
   color: var(--text-color);
-  font-family: poppins;
   font-weight: 600;
   margin: 0 auto;
   max-width: 620px;
   word-spacing: 5px;
   width: 80vw;
-  font-size: clamp(0.7rem, 2vw, 1.2rem);
+  font-size: clamp(0.8rem, 2vw, 1.3rem);
   text-align: center;
 }
 

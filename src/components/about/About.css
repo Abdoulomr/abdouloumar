@@ -61,7 +61,7 @@
 .about-me-text {
   text-align: left;
   max-width: 400px;
-  font-size: clamp(0.7rem, 2vw, 0.8rem);
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
 }
 
 .my-skills {

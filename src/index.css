@@ -17,8 +17,9 @@ body {
   font-family: "poppins";
   padding: 0;
   background-color: #fafafa;
+  color: var(--text-color);
   box-sizing: border-box;
-  font-family: poppins;
+  font-family: inter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
