@@ -18,11 +18,31 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title></title>
+    <title>Abdoul Oumar SY</title>
   </head>
 
-  <body>
+  <body style="width: 100vw; height: 100vh">
     <noscript></noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div
+        className="loader"
+        style="
+          height: 100vh;
+          width: 100vw;
+          background-color: #fafafa;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        "
+      >
+        <img
+          class="img-gif"
+          src="./loader.gif"
+          alt="Preloader"
+          style="width: fit-content; height: fit-content"
+        />
+      </div>
+    </div>
   </body>
 </html>

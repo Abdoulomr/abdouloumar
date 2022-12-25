@@ -33,7 +33,6 @@ const Navbar = () => {
         <AnchorLink
           className="logo"
           href={navLinks[0].id}
-          // onClick={toggle && onToggle}
         >
           {`<Abdoul />`}
         </AnchorLink>
