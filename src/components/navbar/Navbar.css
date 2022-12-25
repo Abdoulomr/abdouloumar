@@ -82,7 +82,6 @@ nav {
   width: 100%;
 }
 
-
 .menu-icon {
   scale: 1.2;
   display: none;
@@ -94,9 +93,6 @@ nav {
 }
 
 @media screen and (max-width: 745px) {
-  nav {
-    height: 60px;
-  }
   .nav-list {
     flex-direction: column;
     background-color: rgb(255, 255, 255);
