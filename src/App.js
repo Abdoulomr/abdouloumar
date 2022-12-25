@@ -4,16 +4,17 @@ import About from "./components/about/About";
 import Projects from "./components/myprojects/Projects";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <div className="App">
+    <Fragment className="App">
       <Hero />
       <About />
       <Projects />
       <Contact />
       <Footer />
-    </div>
+    </Fragment>
   );
 }
 
