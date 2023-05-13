@@ -100,13 +100,13 @@ const Footer = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <span className="contact-ietm">
+              <span className="contact-item">
                 <FaPhoneAlt className="contact-icon" />{" "}
                 <a className="social" href="tel:00221781145615">
                   00221 78 114 56 15
                 </a>
               </span>
-              <span className="contact-ietm">
+              <span className="contact-item">
                 <GrMail className="contact-icon" />{" "}
                 <a className="social" href="mailto:abdoulomrsy@gmail.com">
                   abdoulomrsy@gmail.com

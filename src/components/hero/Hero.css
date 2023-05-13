@@ -28,6 +28,10 @@
 }
 
 .presentation {
+  font-family: "Source sans Pro";
+
+  /* font-family: "Share Tech Mono", monospace; */
+  text-transform: uppercase;
   color: var(--text-color);
   font-weight: 600;
   margin: 0 auto;

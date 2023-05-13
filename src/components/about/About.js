@@ -8,18 +8,18 @@ import {
   FaReact,
   FaBootstrap,
   FaSlack,
-  FaGithubSquare,
   FaGitAlt,
   FaNpm,
   FaFigma,
-  FaSass,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import {
   SiTailwindcss,
   SiNetlify,
   SiAdobeillustrator,
+  SiTypescript,
   SiAdobephotoshop,
+  SiFirebase,
 } from "react-icons/si";
 
 const About = () => {
@@ -111,25 +111,25 @@ const About = () => {
                 <IoLogoJavascript />
               </span>
               <span className="skill">
-                <FaReact />
+                <SiTypescript />
               </span>
               <span className="skill">
-                <FaBootstrap />
+                <FaReact />
               </span>
               <span className="skill">
                 <SiTailwindcss />
               </span>
               <span className="skill">
-                <FaSass />
+                <FaBootstrap />
               </span>
               <span className="skill">
-                <FaSlack />
+                <SiFirebase />
               </span>
               <span className="skill">
                 <FaGitAlt />
               </span>
               <span className="skill">
-                <FaGithubSquare />
+                <FaSlack />
               </span>
               <span className="skill">
                 <FaNpm />
